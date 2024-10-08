@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 export const SingleUser = () => {
   const { product_id } = useParams();
   const [data, setData] = useState(null); // Initialize data as null
-  const url = `http://makeup-api.herokuapp.com/api/v1/products/${product_id}.json`;
+  const url = `https://makeup-api.herokuapp.com/api/v1/products/${product_id}.json`;
 
   // Get LocalStroage
   let localData = JSON.parse(localStorage.getItem("Add_Cart")) || [];
