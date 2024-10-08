@@ -15,7 +15,7 @@ export const Gifts = () => {
 
 
   const fetchData = async () => {
-    let url = `http://makeup-api.herokuapp.com/api/v1/products.json`;
+    let url = `https://makeup-api.herokuapp.com/api/v1/products.json`;
     // const url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish`;
 
     if (filterBrand) {

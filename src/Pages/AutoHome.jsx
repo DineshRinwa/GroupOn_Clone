@@ -15,8 +15,8 @@ export const AutoHome = () => {
 
 
   const fetchData = async () => {
-    let url = `http://makeup-api.herokuapp.com/api/v1/products.json`;
-    // const url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish`;
+    let url = `https://makeup-api.herokuapp.com/api/v1/products.json`;
+    // const url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish`;
 
     if (filterBrand) {
       setGetData(null);
